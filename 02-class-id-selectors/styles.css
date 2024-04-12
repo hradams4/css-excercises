@@ -1,0 +1,22 @@
+/* styles.css */
+
+.odd-numbered {
+    /* Verdana and DejaVu Sans with sans-serif as fall backs */
+    font-family: Verdana, "Dejavu Sans", sans-serif;
+    background-color: rgb(233, 142, 154);
+  }
+
+#number2 {
+    color: #4747f1;
+    font-size: 36px;
+}
+
+.odd-numbered#number3 {
+    font-size: 24px;
+}
+
+#number4 {
+    background-color: #84cf84;
+    font-size: 24px;
+    font-weight: bolder;
+}

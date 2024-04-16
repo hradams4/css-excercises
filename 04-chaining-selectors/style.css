@@ -1,0 +1,12 @@
+/* style.css */
+
+/* Chaining the classes avatar and proportioned */
+.avatar.proportioned {
+    width: 300px;
+}
+
+/* Chaining the classes avatar and distorted */
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}

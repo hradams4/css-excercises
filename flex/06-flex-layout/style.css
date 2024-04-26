@@ -1,3 +1,14 @@
+/*  * The header is at the top of the page, the footer is at the bottom, and they stay in place if you resize your screen.
+    * The header and footer have padding.
+    * The links in the header and footer are pushed to either side.
+    * There is space between the links in the header and footer.
+    * The footer has a light gray background (#eeeeee).
+    * The logo, input and buttons are centered in the screen.
+    * The buttons have an appropriate amount of padding.
+    * There is space between the logo, input and buttons. 
+ */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
@@ -5,6 +16,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -23,4 +37,38 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none; /* Removes list bullets */
+    margin: 0;
+    padding: 0;
+}
+
+.left-links {
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.right-links {
+
+}
+
+.header .left-links, .header .right-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .left-links, .footer .right-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #eeeeee;
 }

@@ -30,6 +30,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
+  margin-top: 12px;
 }
 
 input {
@@ -37,11 +39,13 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin: 8px;
 }
 
 a {
     text-decoration: none;
     color: black;
+    margin: 16px;
 }
 
 ul {
@@ -50,25 +54,26 @@ ul {
     padding: 0;
 }
 
-.left-links {
-    /* display: flex;
-    flex-direction: row; */
-}
-
-.right-links {
-
-}
-
-.header .left-links, .header .right-links {
+.left-links, .right-links {
     display: flex;
-    justify-content: space-between;
+    margin: 16px;
 }
 
-.footer .left-links, .footer .right-links {
+.header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between; 
 }
 
 .footer {
     background-color: #eeeeee;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }

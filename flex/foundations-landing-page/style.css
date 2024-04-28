@@ -9,7 +9,7 @@ a {
   }
 
   img {
-    width: 300px;
+    width: 200px;
   }
 
 button {
@@ -18,7 +18,7 @@ button {
 }
 
 .header {
-    height: 40px;
+    height: auto;
     background: #1F2937;
     color: #E5E7EB;
     padding: 0 16px;
@@ -30,7 +30,7 @@ button {
   }
 
   .top {
-    height: 400px;
+    height: auto;
     background: #1F2937;
     color: #F9FAF8;
     font-size: 48px;
@@ -46,7 +46,7 @@ button {
   }
 
   .middle {
-    height: 36px;
+    height: auto;
     color: #1F2937;
     font-weight: 900;
     display: flex;
@@ -54,8 +54,15 @@ button {
     align-items: center;
   }
 
+  .info-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   .bottom-middle {
-    height: 72px;
+    height: auto;
     background: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
@@ -71,7 +78,7 @@ button {
   }
 
   .bottom {
-    height: 72px;
+    height: auto;
     color: darkmagenta;
     display: flex;
     justify-content: center;
